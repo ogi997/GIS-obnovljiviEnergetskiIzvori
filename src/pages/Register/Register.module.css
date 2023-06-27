@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.form {
+  background-color: #f8f8ff;
+  display: block;
+  padding: 1rem;
+  max-width: 350px;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.form-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container1 {
+  display: flex;
+  position: relative;
+  gap: 10px;
+}
+
+.input-container1 input {
+  width: 150px;
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  border-radius: .5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+}
+
+.input-container1 span {
+  display: grid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 1rem;
+  place-content: center;
+}
+
+
+
+.input-container input,
+.form button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+}
+
+.input-container input {
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  width: 310px;
+  border-radius: .5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.input-container span {
+  display: grid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 1rem;
+  place-content: center;
+}
+
+.submit {
+  display: block;
+  padding: .75rem 1.25rem;
+  background-color: #4F46E5;
+  color: #ffffff;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  width: 100%;
+  border-radius: .5rem;
+  text-transform: uppercase;
+}
+
+.submit:hover {
+  background-color: #473fce;
+  transition: .4s ease-in-out;
+}
+
+.signup-link {
+  color: #6B7280;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  text-align: center;
+
+}
+
+.signupLink {
+  text-decoration: none;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 11px;
+  margin-bottom: 0 !important;
+}
+
+.errorFirsField {
+  color: #ff0000;
+  position: absolute;
+  top: -9px;
+  left: 5px;
+  font-size: 11px;
+}
+
+.errorSecondField {
+  color: #ff0000;
+  position: absolute;
+  top: -9px;
+  right: 5px;
+  font-size: 11px;
+
+
+}
+
+.linearGradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+  width: 410px;
+  height: 560px;
+  border-radius: 10px;
+}

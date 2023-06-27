@@ -1,0 +1,50 @@
+.snow{
+    filter: blur(1px);
+
+}
+
+.errorPage{
+    height: calc(100vh - 70px);
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.errorMsg{
+    background-color: #fff;
+    position: absolute;
+    left: 50px;
+    top: 110px;
+    padding: 60px;
+    font-family: 'Poppins',sans-serif;
+    max-width: 500px;
+}
+
+.errorMsg h2{
+    font-weight: bold;
+}
+
+.second-msg{
+    font-size: 18px;
+    margin: 16px 0 19px 0;
+}
+
+.errorMsg button{
+    border-radius: 100px;
+    padding: 14px 18px;
+    background-color: #000;
+}
+
+.btnError{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btnError:hover{
+    color: #fff;
+}
+
+.err404{
+    width: 95px;
+    height: 95px;
+}

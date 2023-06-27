@@ -1,0 +1,22 @@
+.pointer {
+    cursor: pointer;
+}
+.active {
+    background-color: orange;
+    color: white;
+}
+.transparent {
+    background-color: transparent;
+}
+.marginLeftAuto {
+    margin-left: auto;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formDimension {
+    width: 270px;
+    height: 260px;
+}

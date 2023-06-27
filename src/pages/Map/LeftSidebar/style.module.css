@@ -1,0 +1,191 @@
+.leftSide {
+    position: absolute;
+    top: 13%;
+    z-index: 1;
+    left: 1%;
+    font-family: 'Poppins', serif;
+}
+
+.logoIcon {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 310px;
+    padding: 10px;
+}
+
+.menuBelow {
+    background-color: white;
+    opacity: .9;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 30px;
+}
+
+.infrastructure {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #e3e3e3;
+    opacity: 1;
+    padding: 12px 5px;
+    font-weight: bold;
+}
+
+.tempLayer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #cccccc;
+    opacity: 1;
+    padding: 12px 5px;
+    font-weight: bold;
+}
+
+.layer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e3e3e3;
+    border-radius: 50px;
+    width: 250px;
+    margin: 0 auto;
+    padding: 6px 17px;
+}
+
+.layerText {
+    font-size: 17px;
+}
+
+
+.eye {
+    width: 38px;
+    height: 31px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+
+.eyeAntenna {
+    width: 37px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 100px;
+}
+
+.antenaBase {
+    background-color: white;
+    opacity: 1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.scrollbar {
+    overflow-y: scroll;
+    max-height: 250px;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    margin-block: .5em;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scrollbar {  /*mozilla, firefox..*/
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+
+.antenna,
+.base {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #e3e3e3;
+    width: 290px;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.antenna {
+    margin-bottom: 20px;
+}
+
+.widthHeight25 {
+    width: 25px;
+    height: 25px;
+}
+
+.margbottom0 {
+    margin-bottom: 0;
+}
+
+.whiteBackground {
+    background-color: white;
+    border-radius: 50px;
+}
+
+.activeIcon {
+    background-color: orange;
+    padding: 7px;
+    width: 29px;
+    height: 29px;
+    border-radius: 15px;
+    transition: background-color .5s ease-in-out;
+}
+
+.addedLayers {
+    display: flex;
+    background-color: #cccccc;
+    width: 215px;
+    border-radius: 20px;
+    margin: 13px auto;
+    padding: 6px 17px;
+    justify-content: flex-end;
+}
+
+.trashIcon {
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.eyeIcon,
+.eyeSlashIcon {
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 3px;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

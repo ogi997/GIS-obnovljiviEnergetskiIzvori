@@ -1,0 +1,47 @@
+.map-container {
+  height: calc(100vh - 70px);
+   width: 100%; 
+  }
+
+.colorRed {
+  color: red;
+}
+  
+  .sidebar {
+    background-color: rgba(35, 55, 75, 0.9);
+    color: #fff;
+    padding: 6px 12px;
+    font-family: monospace;
+    z-index: 1;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    margin: 12px;
+    border-radius: 4px;
+  }
+  
+  .mapboxgl-ctrl-attrib-inner, a.mapboxgl-ctrl-logo{
+    display: none!important;
+  }
+
+.mapboxgl-ctrl-geocoder{
+  min-width: 10px!important;
+  width: 13.3333%!important;
+
+}
+
+.mapboxgl-ctrl-geocoder:hover,
+.mapboxgl-ctrl-geocoder:focus-within{
+  min-width: 180px!important;
+  transition: .5s ease-in;
+}
+  
+  .search-container{
+    position: absolute;
+    top: 5px;
+    right: 1px;
+  }
+
+  body{
+    margin:0;
+  }
